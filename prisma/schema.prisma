@@ -2,11 +2,6 @@ generator client {
   provider = "prisma-client-js"
 }
 
-datasource db {
-  provider = "postgresql"
-  url      = ""
-}
-
 model GeneratedApp {
   id        String   @id @default(nanoid(5))
   model     String
